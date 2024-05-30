@@ -18,8 +18,8 @@ export default function SearchBar({ onSubmit }) {
           className={css.input}
           name="query"
           type="text"
-          // autocomplete="off"
-          // autofocus
+          //   autocomplete="off"
+          //   autofocus
           placeholder="Search images and photos"
         />
         <button className={css.btn} type="submit">
@@ -29,16 +29,3 @@ export default function SearchBar({ onSubmit }) {
     </header>
   );
 }
-// Якщо під час натискання кнопки відправки форми текстове поле порожнє, покажи користувачеві сповіщення про те, що необхідно ввести текст для пошуку зображень. Ця перевірка виконується в компоненті SearchBar в момент відправки форми. Для сповіщень використовуй бібліотеку React Hot Toast.
-// import toast, { Toaster } from 'react-hot-toast';
-
-// const notify = () => toast('Here is your toast.');
-
-// const App = () => {
-//   return (
-//     <div>
-//       <button onClick={notify}>Make me a toast</button>
-//       <Toaster />
-//     </div>
-//   );
-// };

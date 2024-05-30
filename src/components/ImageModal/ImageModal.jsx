@@ -28,21 +28,6 @@ export default function ImageModal({ isOpen, isClose, value }) {
           alt={value.alt_description}
         />
       )}
-      {/* {value && (
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            gap: '32px',
-            padding: '8px',
-            color: '#6a20f3',
-          }}
-        >
-          <p>Udername: {value.user.username}</p>
-          <p>Likes: {value.likes}</p>
-        </div>
-      )} */}
     </Modal>
   );
 }
